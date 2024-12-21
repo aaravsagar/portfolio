@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://aaravsagar-portfolio.vercel.app</loc> <!-- Replace with your domain -->
-    <lastmod>2024-12-20</lastmod> <!-- Update to the last modified date -->
+    <loc>https://aaravsagar-portfolio.vercel.app/</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://aaravsagar-portfolio.vercel.app/about</loc> <!-- Replace with your about page URL -->
+    <loc>https://aaravsagar-portfolio.vercel.app/about</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
   <!-- Projects Page -->
   <url>
-    <loc>https://aaravsagar-portfolio.vercel.app/projects</loc> <!-- Replace with your projects page URL -->
+    <loc>https://aaravsagar-portfolio.vercel.app/projects</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -26,7 +26,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://aaravsagar-portfolio.vercel.app/contact</loc> <!-- Replace with your contact page URL -->
+    <loc>https://aaravsagar-portfolio.vercel.app/contact</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
