@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Navbar'; // Ensure correct path to N
 import HeroSection from '../hero/HeroSection'; // Importing HeroSection component
 import AboutSection from '../about/AboutSection'; // Importing the About Section Component
 import Projects from '../projects/Projects'; // Importing the Projects component
+import Footer from '../../components/footer/Footer'; // Import Footer component (adjust path as needed)
 
 const Index = () => {
   // Create references for the sections
@@ -65,7 +66,8 @@ const Index = () => {
       >
         <Projects />
       </div>
-      {/* Other components or content can be added here */}
+      {/* Add Footer at the bottom of the page */}
+      <Footer />
     </div>
   );
 };

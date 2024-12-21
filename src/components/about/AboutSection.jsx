@@ -72,7 +72,7 @@ const AboutSection = () => {
       {/* Add the image below the paragraph */}
       <div>
         <img
-          src="https://camo.githubusercontent.com/3caa186d335c2557ab20aa1ea718f2931eb66d7955d5793f9fe3a875e2e05c66/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616172617673616761722673686f775f69636f6e733d74727565267468656d653d6461726b26686964655f626f726465723d66616c7365"
+          src="https://github-readme-stats.vercel.app/api?username=aaravsagar&show_icons=true&theme=dark&hide_border=false"
           alt="Decorative"
           style={{ width: '100%', maxWidth: '600px', marginTop: '20px' }} // You can adjust the style as needed
         />
