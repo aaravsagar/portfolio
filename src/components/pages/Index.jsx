@@ -4,12 +4,14 @@ import HeroSection from '../hero/HeroSection'; // Importing HeroSection componen
 import AboutSection from '../about/AboutSection'; // Importing the About Section Component
 import Projects from '../projects/Projects'; // Importing the Projects component
 import Footer from '../../components/footer/Footer'; // Import Footer component (adjust path as needed)
+import ContactForm from '../contact/ContactForm'; // Import the ContactForm component
 
 const Index = () => {
   // Create references for the sections
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
+  const contactRef = useRef(null); // Create reference for contact form section
 
   // Function to scroll to the respective section
   const scrollToSection = (section) => {
@@ -19,6 +21,8 @@ const Index = () => {
       aboutRef.current.scrollIntoView({ behavior: 'smooth' });
     } else if (section === 'projects') {
       projectsRef.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (section === 'contact') {
+      contactRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -39,7 +43,7 @@ const Index = () => {
           padding: '20px',
           textAlign: 'center',
           minHeight: '100vh', // Full screen height
-          backgroundColor: '#f0f0f0',
+          backgroundColor: '#ffffff', // Set background color to white
         }}
       >
         <HeroSection />
@@ -49,7 +53,7 @@ const Index = () => {
         style={{
           padding: '20px',
           textAlign: 'center',
-          backgroundColor: '#ffffff',
+          backgroundColor: '#ffffff', // Set background color to white
           minHeight: '100vh',
         }}
       >
@@ -60,11 +64,23 @@ const Index = () => {
         style={{
           padding: '20px',
           textAlign: 'center',
-          backgroundColor: '#f9f9f9',
+          backgroundColor: '#ffffff', // Set background color to white
           minHeight: '100vh',
         }}
       >
         <Projects />
+      </div>
+      {/* Add ContactForm Section */}
+      <div
+        ref={contactRef}
+        style={{
+          padding: '20px',
+          textAlign: 'center',
+          backgroundColor: '#ffffff', // Set background color to white
+          minHeight: '100vh',
+        }}
+      >
+        <ContactForm /> {/* Render ContactForm component */}
       </div>
       {/* Add Footer at the bottom of the page */}
       <Footer />

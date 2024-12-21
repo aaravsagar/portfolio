@@ -5,10 +5,10 @@ const Projects = () => {
   const projects = [
     { 
       logo: "logo.jpg", 
-      title: "Project 1", 
-      description: "Description for Project 1.",
-      gitlabLink: "https://gitlab.com/project1", // GitLab link for Project 1
-      globeLink: "https://project1.com", // Globe link for Project 1
+      title: "PORTFOLIO", 
+      description: "This portfolio is part of the GPT Projects series, developed collaboratively with ChatGPT to showcase my work and skills.",
+      gitlabLink: "https://github.com/aaravsagar/portfolio", // GitLab link for Project 1
+      globeLink: "https://aaravsagar-portfolio.vercel.app", // Globe link for Project 1
       badges: [
         "https://img.shields.io/badge/PORTFOLIO-0A0A0A?style=flat&logo=codersrank&logoColor=white", 
         "https://img.shields.io/badge/GPT%20Projects-0A0A0A?style=flat&logo=openai&logoColor=white",
@@ -18,10 +18,10 @@ const Projects = () => {
     },
     { 
       logo: "app1.jpg", 
-      title: "Project 2", 
-      description: "Description for Project 2.",
-      gitlabLink: "https://gitlab.com/project2", // GitLab link for Project 2
-      globeLink: "https://project2.com", // Globe link for Project 2
+      title: "SLAM", 
+      description: "This is a simple lead management system which I made for my dad for his real estate-related leads management with follow-up features and more.",
+      gitlabLink: "https://github.com/aaravsagar/Leads-Management-CRM", // GitLab link for Project 2
+      globeLink: "https://leads-management-CRM.vercel.app", // Globe link for Project 2
       badges: [
         "https://img.shields.io/badge/PORTFOLIO-333333?style=flat&logo=codersrank&logoColor=white", 
         "https://img.shields.io/badge/GPT%20Projects-333333?style=flat&logo=openai&logoColor=white",

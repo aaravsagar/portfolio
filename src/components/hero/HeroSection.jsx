@@ -48,10 +48,22 @@ const HeroSection = () => {
         padding: '0 20px',
       }}
     >
+      {/* Name Section */}
+      <h1
+        style={{
+          fontSize: '36px',
+          fontWeight: 'bold',
+          color: '#333',
+          marginBottom: '20px',
+        }}
+      >
+        AARAV SAGAR
+      </h1>
+
       {/* Logo Section */}
       <img
         src="/logo.jpg"
-        alt="Logo"
+        alt="AARAV SAGAR"
         style={{
           width: '150px',
           height: '150px',

@@ -26,10 +26,10 @@ const Footer = () => {
         <a href="https://github.com/aaravsagar" target="_blank" rel="noopener noreferrer">
           <Gitlab size={24} color="#333" />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://instagram.com/aaravsagar29" target="_blank" rel="noopener noreferrer">
           <Instagram size={24} color="#333" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/aaravsagar6" target="_blank" rel="noopener noreferrer">
           <Twitter size={24} color="#333" />
         </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">

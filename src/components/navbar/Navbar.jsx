@@ -108,10 +108,12 @@ const Navbar = ({ scrollToSection }) => {
             Projects
           </li>
           <li
+            onClick={() => handleLinkClick('contact')} // Scroll to contact
             style={{
               padding: '10px',
               fontSize: '18px',
               fontWeight: 'bold',
+              cursor: 'pointer',
             }}
           >
             Contact
@@ -131,10 +133,10 @@ const Navbar = ({ scrollToSection }) => {
           <a href="https://github.com/aaravsagar" target="_blank" rel="noopener noreferrer">
             <Gitlab size={24} color="#333" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/aaravsagar29" target="_blank" rel="noopener noreferrer">
             <Instagram size={24} color="#333" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/aaravsagar6" target="_blank" rel="noopener noreferrer">
             <Twitter size={24} color="#333" />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">

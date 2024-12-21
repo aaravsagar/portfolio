@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://aaravsagar-portfolio.vercel.app</loc> <!-- Replace with your domain -->
+    <lastmod>2024-12-20</lastmod> <!-- Update to the last modified date -->
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://aaravsagar-portfolio.vercel.app/about</loc> <!-- Replace with your about page URL -->
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://aaravsagar-portfolio.vercel.app/projects</loc> <!-- Replace with your projects page URL -->
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://aaravsagar-portfolio.vercel.app/contact</loc> <!-- Replace with your contact page URL -->
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
