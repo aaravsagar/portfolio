@@ -22,16 +22,48 @@ const Index = () => {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        fontFamily: 'Arial, sans-serif',
+        margin: 0,
+        padding: 0,
+        boxSizing: 'border-box',
+        overflowX: 'hidden', // Prevent horizontal scrolling
+      }}
+    >
       <Navbar scrollToSection={scrollToSection} /> {/* Pass scrollToSection to Navbar */}
-      <div ref={heroRef}>
-        <HeroSection /> {/* Rendering HeroSection */}
+      <div
+        ref={heroRef}
+        style={{
+          padding: '20px',
+          textAlign: 'center',
+          minHeight: '100vh', // Full screen height
+          backgroundColor: '#f0f0f0',
+        }}
+      >
+        <HeroSection />
       </div>
-      <div ref={aboutRef}>
-        <AboutSection /> {/* Rendering AboutSection */}
+      <div
+        ref={aboutRef}
+        style={{
+          padding: '20px',
+          textAlign: 'center',
+          backgroundColor: '#ffffff',
+          minHeight: '100vh',
+        }}
+      >
+        <AboutSection />
       </div>
-      <div ref={projectsRef}>
-        <Projects /> {/* Rendering Projects */}
+      <div
+        ref={projectsRef}
+        style={{
+          padding: '20px',
+          textAlign: 'center',
+          backgroundColor: '#f9f9f9',
+          minHeight: '100vh',
+        }}
+      >
+        <Projects />
       </div>
       {/* Other components or content can be added here */}
     </div>

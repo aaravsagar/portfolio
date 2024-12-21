@@ -8,10 +8,9 @@ const Navbar = ({ scrollToSection }) => {
     setMenuOpen(!menuOpen);
   };
 
-  // Function to close the navbar after clicking a menu item
   const handleLinkClick = (section) => {
-    scrollToSection(section); // Scroll to the section
-    setMenuOpen(false); // Close the menu
+    scrollToSection(section);
+    setMenuOpen(false);
   };
 
   return (
@@ -24,10 +23,10 @@ const Navbar = ({ scrollToSection }) => {
           justifyContent: 'space-between',
           padding: '10px 20px',
           backgroundColor: 'white',
-          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)', // Navbar shadow
+          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
           position: 'fixed',
           width: '100%',
-          zIndex: 1000, // Navbar stays on top of other content
+          zIndex: 1000,
         }}
       >
         {/* Hamburger Menu Icon */}
@@ -44,9 +43,8 @@ const Navbar = ({ scrollToSection }) => {
             textAlign: 'center',
             flex: 1,
             color: '#333',
-            opacity: menuOpen ? 0 : 1, // Hide name when menu is open
+            opacity: menuOpen ? 0 : 1,
             transition: 'opacity 0.3s ease',
-            zIndex: 999, // Ensure text doesn't overlap the menu
           }}
         >
           AARAV SAGAR
@@ -57,17 +55,18 @@ const Navbar = ({ scrollToSection }) => {
       <div
         style={{
           position: 'fixed',
-          top: menuOpen ? '50px' : '-100%', // Adjust this value as needed
+          top: menuOpen ? '50px' : '-100%',
           left: '50%',
           transform: 'translateX(-50%)',
           transition: 'top 0.4s ease',
           backgroundColor: 'white',
-          width: '80%',
-          height: '50%',
-          boxShadow: '0 8px 20px rgba(0, 0, 0, 0.3)', // Differentiated shadow
+          width: '90%', // Adjusted for smaller screens
+          maxWidth: '500px', // Limit maximum width
+          height: 'auto', // Let height adjust dynamically
+          boxShadow: '0 8px 20px rgba(0, 0, 0, 0.3)',
           borderRadius: '10px',
           padding: '20px',
-          zIndex: 1001, // Dropdown menu above navbar content
+          zIndex: 1001,
           textAlign: 'center',
         }}
       >
@@ -126,30 +125,19 @@ const Navbar = ({ scrollToSection }) => {
             justifyContent: 'center',
             marginTop: '20px',
             gap: '15px',
+            flexWrap: 'wrap', // Allow wrapping for smaller screens
           }}
         >
           <a href="https://github.com/aaravsagar" target="_blank" rel="noopener noreferrer">
             <Gitlab size={24} color="#333" />
           </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <Instagram size={24} color="#333" />
           </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <Twitter size={24} color="#333" />
           </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
             <Linkedin size={24} color="#333" />
           </a>
         </div>
