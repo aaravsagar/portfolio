@@ -64,7 +64,7 @@ const Projects = () => {
         style={{
           display: 'flex',
           overflow: 'hidden',
-          maxWidth: '800px',
+          width: '100%',
           margin: '0 auto',
           position: 'relative',
         }}
@@ -85,6 +85,10 @@ const Projects = () => {
                 maxWidth: `${isTwoInFrame ? '50%' : '100%'}`,
                 padding: '20px',
                 boxSizing: 'border-box',
+                boxShadow: '0 8px 15px rgba(0, 0, 0, 0.2)',
+                backgroundColor: '#f9f9f9',
+                borderRadius: '15px',
+                textAlign: 'center',
               }}
             >
               <div
@@ -96,9 +100,6 @@ const Projects = () => {
                   padding: '20px',
                   border: '1px solid #ddd',
                   borderRadius: '15px',
-                  boxShadow: '0 8px 15px rgba(0, 0, 0, 0.2)',
-                  backgroundColor: '#f9f9f9',
-                  textAlign: 'center',
                 }}
               >
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
