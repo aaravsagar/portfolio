@@ -29,6 +29,20 @@ const Projects = () => {
         "https://img.shields.io/badge/React-333333?style=flat&logo=React&logoColor=61DAFB"
       ], // Badges for Project 2
     },
+    { 
+      logo: "calcverse-logo.jpg", 
+      title: "CALCVERSE", 
+      description: "CalcVerse is an Electron app featuring a calculator, unit converter, and real-time currency converter, developed as part of my GPT Projects series.",
+      gitlabLink: "https://github.com/aaravsagar/CalcVerse", // GitLab link for CalcVerse
+      globeLink: "https://calcverse.vercel.app", // Globe link for CalcVerse
+      badges: [
+        "https://img.shields.io/badge/CalcVerse-000000?style=flat&logo=codersrank&logoColor=white", 
+        "https://img.shields.io/badge/GPT%20Projects-000000?style=flat&logo=openai&logoColor=white",
+        "https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white",
+        "https://img.shields.io/badge/Electron-000000?style=flat&logo=Electron&logoColor=9FEAF9",
+        "https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"
+      ], // Badges for CalcVerse
+    }
   ];
 
   return (
