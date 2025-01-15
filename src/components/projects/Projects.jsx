@@ -30,11 +30,10 @@ const Projects = () => {
       ], // Badges for Project 2
     },
     { 
-      logo: "calcverse-logo.jpg", 
+      logo: "app2.png", 
       title: "CALCVERSE", 
       description: "CalcVerse is an Electron app featuring a calculator, unit converter, and real-time currency converter, developed as part of my GPT Projects series.",
       gitlabLink: "https://github.com/aaravsagar/CalcVerse", // GitLab link for CalcVerse
-      globeLink: "https://calcverse.vercel.app", // Globe link for CalcVerse
       badges: [
         "https://img.shields.io/badge/CalcVerse-000000?style=flat&logo=codersrank&logoColor=white", 
         "https://img.shields.io/badge/GPT%20Projects-000000?style=flat&logo=openai&logoColor=white",
