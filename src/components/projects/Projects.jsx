@@ -100,7 +100,12 @@ const Projects = () => {
               <a href={project.gitlabLink} target="_blank" rel="noopener noreferrer">
                 <Gitlab size={24} color="#333" /> {/* GitLab Icon with link */}
               </a>
-              <a href={project.globeLink} target="_blank" rel="noopener noreferrer">
+              {/* Tooltip for CalcVerse */}
+              <a
+                href={project.globeLink || "#"}
+                target={project.globeLink ? "_blank" : "_self"}
+                title={project.globeLink ? "" : "This project is not deployed as a website"}
+              >
                 <Globe size={24} color="#333" /> {/* Globe Icon with link */}
               </a>
             </div>
