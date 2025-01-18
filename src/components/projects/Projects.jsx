@@ -41,6 +41,19 @@ const Projects = () => {
         "https://img.shields.io/badge/Electron-000000?style=flat&logo=Electron&logoColor=9FEAF9",
         "https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"
       ], // Badges for CalcVerse
+    },
+    { 
+      logo: "app3.png", // Logo for Noteify
+      title: "NOTEIFY", 
+      description: "Noteify is a note-taking application that allows users to create, edit, and delete notes. It was created as part of my GPT Projects series.",
+      gitlabLink: "https://github.com/aaravsagar/noteify", // Updated GitLab link for Noteify
+      globeLink: "https://noteify-theta.vercel.app", // Updated Globe link for Noteify
+      badges: [
+        "https://img.shields.io/badge/Noteify-000000?style=flat&logo=codersrank&logoColor=white", 
+        "https://img.shields.io/badge/GPT%20Projects-000000?style=flat&logo=openai&logoColor=white",
+        "https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white",
+        "https://img.shields.io/badge/React-000000?style=flat&logo=React&logoColor=61DAFB"
+      ], // Badges for Noteify
     }
   ];
 
@@ -100,7 +113,7 @@ const Projects = () => {
               <a href={project.gitlabLink} target="_blank" rel="noopener noreferrer">
                 <Gitlab size={24} color="#333" /> {/* GitLab Icon with link */}
               </a>
-              {/* Tooltip for CalcVerse */}
+              {/* Tooltip for Globe link */}
               <a
                 href={project.globeLink || "#"}
                 target={project.globeLink ? "_blank" : "_self"}
