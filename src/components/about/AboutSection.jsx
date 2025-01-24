@@ -62,7 +62,7 @@ const AboutSection = () => {
       </div>
 
       <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#333', textAlign: 'justify' }}>
-        I’m <strong>Aarav Sagar</strong>, a 1st-year IT student with a passion for creating random projects. Recently, I launched a new initiative called <strong>GPT Projects</strong>, where I develop exciting projects with the help of <strong>ChatGPT</strong>.  
+        I’m <strong>Aarav Sagar</strong>, a 2nd-year IT student with a passion for creating random projects. Recently, I launched a new initiative called <strong>GPT Projects</strong>, where I develop exciting projects with the help of <strong>ChatGPT</strong>.  
         <br /><br />
         I also own two startups, <strong>Company ZER0</strong> and <strong>Company ZER0 Digital</strong>, focused on digital marketing and web development. <strong>Company ZER0 Digital</strong>, initially known as <strong>Pixel Byte Virtual</strong>, started as a hobby on <strong>January 8, 2024</strong>. Over the past year, it has grown significantly, despite facing challenges, including the shutdown of <strong>Pixel Byte Esports</strong>, my web app for news, due to high API costs.  
         <br /><br />
